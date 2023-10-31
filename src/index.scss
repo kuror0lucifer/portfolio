@@ -8,6 +8,10 @@
   overflow: hidden;
 }
 
+html {
+  height: auto;
+  overflow: auto;
+}
 // Стили для хедера
 
 header {
@@ -23,7 +27,7 @@ header {
     margin-right: 60px;
   }
   .header__list {
-    font-size: 1rem;
+    font-size: 1.25rem;
     font-weight: 600;
     cursor: pointer;
     transition: opacity 200ms ease;
@@ -33,3 +37,60 @@ header {
 .header__list:hover {
   opacity: 0.5;
 }
+
+// Стили для главной части
+
+.intro__wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  //   gap: 105px;
+  margin: 140px 150px 0 150px;
+  img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    // -webkit-box-shadow: -14px 16px 12px 3px rgba(33, 102, 156, 0.2);
+    // -moz-box-shadow: -14px 16px 12px 3px rgba(33, 102, 156, 0.2);
+    // box-shadow: -14px 16px 12px 3px rgba(33, 102, 156, 0.2);
+  }
+}
+
+.intro__flex {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.intro__title {
+  width: 30vw;
+  word-wrap: break-word;
+
+  font-size: 2.75rem;
+}
+
+.intro__text {
+  width: 30vw;
+  word-wrap: break-word;
+  font-size: 1rem;
+}
+
+.intro__btn {
+  width: 208px;
+  height: 47px;
+  background: rgba(255, 100, 100, 1);
+  color: white;
+  font-size: 1.25rem;
+  border: 0;
+  margin-left: 347px;
+  margin-top: 38px;
+  a,
+  a:visited {
+    text-decoration: none;
+    color: inherit;
+  }
+}
+
+// Адаптив
