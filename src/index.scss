@@ -116,10 +116,14 @@ header {
   padding-top: 5vh;
 }
 
-.about__title {
+.title {
   text-align: center;
   font-size: 2rem;
   margin-bottom: 20px;
+}
+
+.title-margin {
+  margin-bottom: 10vh;
 }
 
 .about__flex {
@@ -157,6 +161,51 @@ header {
 
 .block:hover {
   transform: scale(1.1);
+}
+
+// Стили примеров работ
+
+.works__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 80%;
+  height: fit-content;
+  margin-top: 10vh;
+  margin-right: 10vw;
+  margin-left: 10vw;
+  padding-top: 5vh;
+  background-color: white;
+}
+
+.works__flex {
+  width: 70%;
+  display: flex;
+  gap: 20px;
+
+  border-bottom: 1px solid rgba(224, 224, 224, 1);
+
+  margin-bottom: 20px;
+}
+
+.works__flex-content {
+  width: 70%;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.works__img {
+  width: 246px;
+  height: 184px;
+  margin-bottom: 20px;
+}
+
+.works__content {
+  word-wrap: break-word;
 }
 
 // Адаптив

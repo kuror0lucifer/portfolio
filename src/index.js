@@ -4,6 +4,7 @@ import "./index.scss";
 import Header from "./components/Home/Header";
 import Introduce from "./components/Introduce/Introduce";
 import About from "./components/About/About";
+import WorksItems from "./components/Works/WorksItems";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -11,5 +12,6 @@ root.render(
     <Header />
     <Introduce />
     <About />
+    <WorksItems />
   </React.StrictMode>
 );
