@@ -15,6 +15,7 @@ export default function Introduce() {
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
             aliquip ex ea commodo consequat.
           </p>
+          <ButtonResume />
         </div>
         <div className="intro__img">
           <img
@@ -23,7 +24,6 @@ export default function Introduce() {
           />
         </div>
       </div>
-      <ButtonResume />
     </>
   );
 }
