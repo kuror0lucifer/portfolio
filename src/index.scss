@@ -208,4 +208,15 @@ header {
   word-wrap: break-word;
 }
 
+// Стили footer
+
+footer {
+  width: 100%;
+  height: 5vh;
+  .footer__text {
+    text-align: center;
+    font-size: 1.25rem;
+  }
+}
+
 // Адаптив
