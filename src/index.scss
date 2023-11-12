@@ -202,6 +202,7 @@ header {
   width: 246px;
   height: 184px;
   margin-bottom: 20px;
+  border-radius: 5px;
 }
 
 .works__content {
@@ -215,7 +216,7 @@ footer {
   height: 5vh;
   .footer__text {
     text-align: center;
-    font-size: 1.25rem;
+    font-size: 1rem;
   }
 }
 
