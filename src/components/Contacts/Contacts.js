@@ -25,13 +25,17 @@ const contacts = [
 
 export default function Contacts() {
   return (
-    <div className="contacts__block">
-      <h2>Для связи со мной:</h2>
+    <div className="contacts__block" id="contacts">
+      <h2>Для связи со мной</h2>
       <div className="contacts__logos">
         {contacts.map((el) => {
           return (
             <a href="###">
-              <img src={el.img} alt={el.title + "logo"} />
+              <img
+                src={el.img}
+                alt={el.title + " logo"}
+                className="contacts__logo"
+              />
             </a>
           );
         })}
