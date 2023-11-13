@@ -260,3 +260,21 @@ footer {
 }
 
 // Адаптив
+// Экран меньше 1024px
+@media screen and (max-width: 1024px) {
+  .intro__wrapper {
+    margin-right: 100px;
+    margin-left: 100px;
+  }
+
+  .intro__title {
+    font-size: 2rem;
+    width: auto;
+  }
+  .intro__img {
+    img {
+      width: 220px;
+      height: 220px;
+    }
+  }
+}
