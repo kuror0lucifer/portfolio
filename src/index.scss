@@ -281,3 +281,16 @@ footer {
     width: 90%;
   }
 }
+
+// Экран меньше 768px
+
+@media screen and (max-width: 768px) {
+  .intro__wrapper {
+    margin-right: 50px;
+    margin-left: 50px;
+  }
+
+  .intro__title {
+    width: 400px;
+  }
+}
