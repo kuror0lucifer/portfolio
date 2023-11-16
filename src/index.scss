@@ -311,3 +311,18 @@ footer {
     height: 40px;
   }
 }
+
+// Экран меньше 425px
+
+@media screen and (max-width: 425px) {
+  .intro__wrapper {
+    flex-direction: column;
+    margin-top: 100px;
+  }
+  .intro__title {
+    width: 100%;
+  }
+  .intro__text {
+    width: 100%;
+  }
+}
