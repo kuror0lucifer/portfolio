@@ -322,10 +322,26 @@ footer {
   .intro__title {
     width: 100%;
   }
+  .intro__img {
+    margin-left: 100px;
+  }
   .intro__text {
     width: 100%;
   }
   .block {
     width: 80%;
+  }
+
+  .works__flex {
+    flex-direction: column-reverse;
+  }
+  .works__img {
+    width: 100%;
+  }
+  .works__flex-content {
+    width: 100%;
+  }
+  .title-margin {
+    margin-bottom: 50px;
   }
 }
