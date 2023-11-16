@@ -27,13 +27,13 @@ const works = [
 export default function WorksItem() {
   return works.map((el) => {
     return (
-      <div className="works__flex">
+      <section className="works__flex">
         <img src={el.img} alt="" className="works__img" />
         <div className="works__flex-content">
           <h2 className="works__title">{el.title}</h2>
           <p className="works__content">{el.content}</p>
         </div>
-      </div>
+      </section>
     );
   });
 }

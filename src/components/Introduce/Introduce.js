@@ -4,7 +4,7 @@ import ButtonResume from "./ButtonResume";
 export default function Introduce() {
   return (
     <>
-      <div className="intro__wrapper">
+      <section className="intro__wrapper">
         <div className="intro__flex">
           <h1 className="intro__title">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -23,7 +23,7 @@ export default function Introduce() {
             alt="Селфи"
           />
         </div>
-      </div>
+      </section>
     </>
   );
 }

@@ -25,7 +25,7 @@ const contacts = [
 
 export default function Contacts() {
   return (
-    <div className="contacts__block" id="contacts">
+    <section className="contacts__block" id="contacts">
       <h2>Для связи со мной</h2>
       <div className="contacts__logos">
         {contacts.map((el) => {
@@ -40,6 +40,6 @@ export default function Contacts() {
           );
         })}
       </div>
-    </div>
+    </section>
   );
 }
